@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    line-height: 1.3;
 }
 
 header {
@@ -51,22 +52,16 @@ h1 {
     margin: 0 0 1% 0;
 }
 
-h1 ~ p {
-    color: var(--light);
-    font-size: 105%;
-    letter-spacing: 3px;
-}
-
 h2 {
+    display: flex;
     font-size: 130%;
-    border-right: 5px solid var(--primary);
-    text-align: end;
-    margin: 0 10px 0 30px;
-    padding: 0 20px;
 }
 
 .h2-container {
-  
+    display: flex;
+    justify-content: flex-start;
+    border-right: 5px solid var(--primary);
+    margin-left: 100px;
 }
 
 section {
@@ -74,12 +69,11 @@ section {
 }
 
 article {
-    display: flex;
+    margin-left: 2%;
     justify-content: center;
 }
 
 p {
-    margin: 0 2rem;
     text-align: justify;
 }
 
@@ -102,6 +96,13 @@ figure {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.hero > p {
+    color: var(--light);
+    font-size: 105%;
+    letter-spacing: 3px;
+    margin-top: 1rem;
 }
 
 .about-me {
