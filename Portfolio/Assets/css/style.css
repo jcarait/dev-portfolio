@@ -1,0 +1,131 @@
+/*variables*/
+:root {
+    --light: #fff;
+    --overlay: #444;
+    --primary: #192841;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 110%;
+}
+
+nav a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--light);
+  }
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+h1 {
+    font-size: 200%;
+    color: var(--light);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 0 0 1% 0;
+}
+
+h1 ~ p {
+    color: var(--light);
+    font-size: 105%;
+    letter-spacing: 3px;
+}
+
+h2 {
+    margin: 0 2rem 0 5rem;
+    font-size: 130%;
+    border-right: 5px solid var(--primary);
+    padding: 10px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0 1.7rem;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    padding: 5px;
+}
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-color: var(--overlay);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 80vh;
+    /*h1 text positioning*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    display: flex;
+}
+
+.projects {
+    display: flex;
+    margin-right: 4.5rem;
+}
+
+.main-project-image {
+    margin-left: 2%;
+}
+
+.row {
+    display: flex;
+    margin-left: 2%;
+}
+
+.column-a {
+    flex: 33.33%;
+}
+
+.column-b {
+    flex: 48%;
+    padding: 5px;
+}
+
+.contact-me {
+    display: flex;
+}

@@ -10,16 +10,72 @@
 </head>
 
 <body>
-    <header>
-      <h1>The CSS Blog</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resources</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    
+  <div class="hero">
+    <h1>Jono</h1>
+    <p>I'm a Full-stack <span>Web Developer</span></p>
+  </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact me</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about-me">
+      <h2>About me</h2>
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+      </article>
+    </section>
+    <section class="projects">
+      <div class="h2-container"> <!-- Added container to keep border from extending down the page thus containing vertically with the text-->
+      <h2>Projects</h2>
+      </div>
+      <div class="main-project-image">
+        <figure>
+          <img id="code" src="Assets/images/html.jpg" alt="turned on monitor displaying programming language">
+          <figcaption>HTML Code Refactor</figcaption>
+        </figure>
+        <div class="row">
+          <div class="column-a">
+            <figure>
+              <img id="dashboard" src="Assets/images/dash.jpg"
+                alt="turned on monitoring screen displaying data on graphical dashboards">
+              <figcaption>Dashboard</figcaption>
+            </figure>
+            <figure>
+              <img id="calc" src="Assets/images/calc.jpg" alt="white calculator on white table">
+              <figcaption>Basic Calculator</figcaption>
+            </figure>
+          </div>
+          <div class="column-b">
+            <figure>
+              <img id="padlock" src="Assets/images/password.jpg" alt="silver and black combination padlock">
+              <figcaption>Password Generator</figcaption>
+            </figure>
+            <figure>
+              <img id="cards" src="Assets/images/game.jpg" alt="six playing cards">
+              <figcaption>Simple game</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-me">
+      <h2>Contact me</h2>
+      <ul>
+        <li>Email</li>
+        <li>Github</li>
+        <li>Linkedin</li>
+      </ul>
+    </section>
+  </main>
+</body>
