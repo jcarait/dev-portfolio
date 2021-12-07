@@ -58,10 +58,15 @@ h1 ~ p {
 }
 
 h2 {
-    margin: 0 2rem 0 5rem;
     font-size: 130%;
     border-right: 5px solid var(--primary);
-    padding: 10px;
+    text-align: end;
+    margin: 0 10px 0 30px;
+    padding: 0 20px;
+}
+
+.h2-container {
+  
 }
 
 section {
@@ -74,7 +79,7 @@ article {
 }
 
 p {
-    margin: 0 1.7rem;
+    margin: 0 2rem;
     text-align: justify;
 }
 
@@ -105,7 +110,6 @@ figure {
 
 .projects {
     display: flex;
-    margin-right: 4.5rem;
 }
 
 .main-project-image {
