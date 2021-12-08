@@ -4,7 +4,7 @@
     --overlay: #444;
     --primary: #192841;
     --dark: black;
-    --image-overlay: #68a7ca;
+    --secondary: #68a7ca;
 }
 
 body {
@@ -79,21 +79,19 @@ p {
     text-align: justify;
 }
 
-img {
-    width: 100%;
-    opacity: 0.9;
-    fill-opacity: var(--image-overlay);
-    border: 0.75em var(--primary) solid;
-    margin: 2% 0;
-}
-
-img:hover {
-    opacity: 1;
-}
-
 figure {
     position: relative;
     margin: 5px;
+}
+
+figure img {
+    width: 100%;
+    opacity: 0.85;
+    border: 0.8em var(--primary) solid;
+}
+
+figure img:hover {
+    opacity: 1;
 }
 
 figcaption {
@@ -101,9 +99,8 @@ figcaption {
     bottom: 75px;
     left: 20px;
     color: var(--dark);
-    padding: 0 20px;
-    background-color: var(--light);
-    padding: 1rem;
+    padding: 2em 3em;
+    background-color: var(--secondary);
 }
 
 .hero {
@@ -118,12 +115,20 @@ figcaption {
     justify-content: center;
     height: 80vh;
     width: 100%;
+    position: relative;
 }
 
 .hero > p {
     color: var(--light);
     font-size: 105%;
     letter-spacing: 3px;
+}
+
+.avatar {
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .about-me > article {
@@ -191,7 +196,8 @@ figcaption {
     nav ul {
         flex-direction: row;
         justify-content: space-evenly;
-        min-width: 100vh;
+        min-width: 1000px;
+        height: 0;
     }
 
 }
