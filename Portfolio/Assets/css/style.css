@@ -80,8 +80,7 @@ p {
 
 img {
     width: 100%;
-    opacity: 0.7;
-    fill-opacity: var(--overlay);
+    opacity: 0.9;
 }
 
 img:hover {
@@ -90,14 +89,15 @@ img:hover {
 
 figure {
     position: relative;
-    border: var(--primary) solid 10px;
 }
 
 figcaption {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    bottom: 75px;
+    left: 20px;
     color: green;
+    padding: 0 20px;
+    background-color: var(--light);
 }
 
 .hero {
