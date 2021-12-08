@@ -40,7 +40,8 @@ nav a {
 main {
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    margin: 0 auto;
+    width: 90rem;
 }
 
 h1 {
@@ -124,13 +125,12 @@ figcaption {
 
 .projects {
     display: flex;
-    justify-content: space-around;
     line-height: 0;
 }
 
-/* .main-project-image {
-    margin-left: 2%;
-} */
+.main-project {
+    margin-left: 50px;
+}
 
 .row {
     display: flex;
@@ -147,5 +147,4 @@ figcaption {
 .contact-me {
     display: flex;
     flex-basis: 10%;
-    justify-content: center;
 }
