@@ -63,10 +63,10 @@ section {
 
 section h2 {
     font-size: 1.2rem;
-    margin-right: 2%;
+    margin-bottom: 2em;
     border-right: 5px solid var(--primary);
     margin-left: 1rem;
-    padding: 20px;
+    padding: 1em;
     min-width: 10rem;
 }
 
@@ -82,25 +82,26 @@ p {
 figure {
     position: relative;
     margin: 5px;
+    opacity: 0.9;
 }
 
 figure img {
     width: 100%;
-    opacity: 0.85;
     border: 0.8em var(--primary) solid;
 }
 
-figure img:hover {
+figure:hover {
     opacity: 1;
 }
 
 figcaption {
     position: absolute;
-    bottom: 75px;
-    left: 20px;
+    bottom: 3em;
+    left: 0.8em;
     color: var(--dark);
-    padding: 2em 3em;
-    background-color: var(--secondary);
+    padding: 1em 3em;
+    background-color: var(--primary);
+    color: var(--light);
 }
 
 .hero {
@@ -124,11 +125,23 @@ figcaption {
     letter-spacing: 3px;
 }
 
-.avatar {
+.avatar-container {
     position: relative;
-    height: 250px;
-    border-radius: 50%;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.avatar {
+    position: absolute;
+    height: 250px;
+    border-radius: 44% 44% 0 0;
+    border: 0.3em solid var(--primary);
+    overflow: hidden;
+    bottom: -3em;
 }
 
 .about-me > article {
