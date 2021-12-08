@@ -15,20 +15,16 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly
 }
 
 nav ul {
     padding: 3vh 0;
     text-align: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    height: 25vh;
+    justify-content: space-around
 }
 
 nav a {
@@ -147,6 +143,10 @@ figcaption {
 
 @media screen and (min-width: 600px) {
 
+    main {
+        width: 80%;
+    }
+
     section h2 {
         margin-right: 2%;
         border-right: 5px solid var(--primary);
@@ -185,9 +185,13 @@ figcaption {
     
     .column-b {
         float: right;
+        max-width: 580px;
     }
 
     nav ul {
         flex-direction: row;
+        justify-content: space-evenly;
+        min-width: 100vh;
     }
+
 }
