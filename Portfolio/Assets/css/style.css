@@ -3,6 +3,8 @@
     --light: #fff;
     --overlay: #444;
     --primary: #192841;
+    --dark: black;
+    --image-overlay: #68a7ca;
 }
 
 body {
@@ -16,14 +18,25 @@ header {
 }
 
 nav {
+    display: flex;
     margin: 20px 0 20px 0;
     width: 100%;
 }
 
 nav ul {
-    display: flex;
+   
     justify-content: space-around;
     font-size: 110%;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
 }
 
 nav a {
@@ -41,7 +54,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 90rem;
+    width: 80%;
 }
 
 h1 {
@@ -62,11 +75,11 @@ section {
 
 section h2 {
     font-size: 130%;
-    margin-right: 1rem;
+    margin-right: 2%;
     border-right: 5px solid var(--primary);
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 20px;
-    min-width: 150px;
+    min-width: 10rem;
 }
 
 article {
@@ -81,6 +94,8 @@ p {
 img {
     width: 100%;
     opacity: 0.9;
+    fill-opacity: var(--image-overlay);
+    border: 0.75em var(--primary) solid;
 }
 
 img:hover {
@@ -89,15 +104,17 @@ img:hover {
 
 figure {
     position: relative;
+    margin: 5px;
 }
 
 figcaption {
     position: absolute;
     bottom: 75px;
     left: 20px;
-    color: green;
+    color: var(--dark);
     padding: 0 20px;
     background-color: var(--light);
+    padding: 20px;
 }
 
 .hero {
@@ -123,6 +140,11 @@ figcaption {
     display: flex;
 }
 
+.about-me > article {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
 .projects {
     display: flex;
     line-height: 0;
@@ -130,6 +152,7 @@ figcaption {
 
 .main-project {
     margin-left: 50px;
+    justify-content: center;
 }
 
 .row {
@@ -137,11 +160,11 @@ figcaption {
 }
 
 .column-a {
-    max-width: 500px;
+    float: left;
 }
 
 .column-b {
-    max-width: 500px;
+    float: right;
 }
 
 .contact-me {
