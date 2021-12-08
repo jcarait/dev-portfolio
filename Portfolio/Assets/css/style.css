@@ -15,28 +15,20 @@ body {
 
 header {
     display: flex;
+    justify-content: center;
 }
 
 nav {
     display: flex;
-    margin: 20px 0 20px 0;
-    width: 100%;
+    justify-content: space-around;
 }
 
 nav ul {
-   
-    justify-content: space-around;
-    font-size: 110%;
-}
-
-@media screen and (max-width: 600px) {
-    header {
-        flex-wrap: wrap;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
+    padding: 3vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 nav a {
@@ -54,11 +46,11 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 80%;
+    width: 95%;
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 2rem;
     color: var(--light);
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -74,7 +66,7 @@ section {
 }
 
 section h2 {
-    font-size: 130%;
+    font-size: 1.2rem;
     margin-right: 2%;
     border-right: 5px solid var(--primary);
     margin-left: 1rem;
@@ -83,7 +75,7 @@ section h2 {
 }
 
 article {
-    margin-left: 2%;
+    margin-left: 1%;
     justify-content: center;
 }
 
@@ -96,6 +88,7 @@ img {
     opacity: 0.9;
     fill-opacity: var(--image-overlay);
     border: 0.75em var(--primary) solid;
+    margin: 2% 0;
 }
 
 img:hover {
@@ -114,7 +107,7 @@ figcaption {
     color: var(--dark);
     padding: 0 20px;
     background-color: var(--light);
-    padding: 20px;
+    padding: 1rem;
 }
 
 .hero {
@@ -122,12 +115,13 @@ figcaption {
     background-color: var(--overlay);
     background-blend-mode: multiply;
     background-size: cover;
-    height: 80vh;
     /*h1 text positioning*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 80vh;
+    width: 100%;
 }
 
 .hero > p {
@@ -136,38 +130,64 @@ figcaption {
     letter-spacing: 3px;
 }
 
-.about-me {
-    display: flex;
-}
-
 .about-me > article {
-    margin: 0 auto;
+    margin: 2% auto;
     max-width: 80%;
 }
 
-.projects {
-    display: flex;
-    line-height: 0;
-}
-
 .main-project {
-    margin-left: 50px;
+    margin-left: 1%k;
     justify-content: center;
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.column-a {
-    float: left;
-}
+@media screen and (min-width: 600px) {
 
-.column-b {
-    float: right;
-}
+    section h2 {
+        margin-right: 2%;
+        border-right: 5px solid var(--primary);
+    }
 
-.contact-me {
-    display: flex;
-    flex-basis: 10%;
+    .about-me {
+        display: flex;
+    }
+    
+    .about-me > article {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    
+    .projects {
+        display: flex;
+        line-height: 0;
+    }
+    
+    .main-project {
+        margin-left: 1%k;
+        justify-content: center;
+    }
+    
+    .contact-me {
+        display: flex;
+    }
+
+    .row {
+        display: flex;
+    }
+    
+    .column-a {
+        float: left;
+    }
+    
+    .column-b {
+        float: right;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
 }
