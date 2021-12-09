@@ -54,10 +54,6 @@ main {
     width: 95%;
 }
 
-/* .h2-container {
-
-} */
-
 section {
     margin: 40px 0;
 }
@@ -88,7 +84,7 @@ figure {
 
 figure img {
     width: 100%;
-    border: 0.8em var(--primary) solid;
+    border: 0.9em var(--primary) solid;
 }
 
 figure:hover {
