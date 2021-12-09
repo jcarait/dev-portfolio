@@ -4,11 +4,9 @@
 
 My dream is to become a full stack web developer :stars:
 
-I'm currently undergoing training through a coding boot camp collaborated by University of Sydney and Trilogy Education.
+I'm currently undergoing training through a coding boot camp collaborated by University of Sydney and Trilogy Education. :mortar_board:
 
-This portfolio is a way to showcase what I've learnt and put in the practice by demonstrating those skills.
-
-The goal is to improve this portfolio as I progress and apply any new things I've learnt.
+This portfolio is a way to showcase anything and everything I've learnt as a demonstration of my capabilities. :muscle:
 
 ## What Have I learnt so far? (Updated 9/12/2021)
 
