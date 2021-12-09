@@ -243,9 +243,13 @@ svg {
     .contact-me ul {
         padding: 3vh 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         font-size: 1.25rem;
-        min-width: 200px;
+        width: 80%;
+    }
+
+    .contact-me ul > li {
+        padding: 0 2em;
     }
 
 }
