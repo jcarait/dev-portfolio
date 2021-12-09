@@ -110,10 +110,6 @@ figcaption p {
     margin-bottom: 0.3em;
 }
 
-figcaption span {
-    font-size
-}
-
 .hero {
     background-image: url(../images/hero.jpg);
     background-color: var(--overlay);
@@ -173,9 +169,8 @@ figcaption span {
     padding: 3vh 0;
     text-align: center;
     display: flex;
-    flex-direction: column;
     height: 25vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 1.25rem;
 }
 
