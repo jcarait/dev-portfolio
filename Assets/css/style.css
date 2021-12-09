@@ -31,7 +31,7 @@ nav ul {
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 15vh;
+    height: 25vh;
     justify-content: space-around;
     font-size: 1.25rem;
 }
@@ -237,6 +237,7 @@ svg {
         flex-direction: row;
         justify-content: space-between;
         min-width: 1200px;
+        height: 15vh;
     }
 
     .contact-me ul {
