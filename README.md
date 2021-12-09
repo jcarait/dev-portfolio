@@ -6,7 +6,9 @@ My dream is to become a full stack web developer :stars:
 
 I'm currently undergoing training through a coding boot camp collaborated by University of Sydney and Trilogy Education.
 
-This portfolio is a way to showcase what I've learnt with CSS and hopefully improve upon it as I learn more new things.
+This portfolio is a way to showcase what I've learnt and put in the practice by demonstrating those skills.
+
+The goal is to improve this portfolio as I progress and apply any new things I've learnt.
 
 ## What Have I learnt so far? (Updated 9/12/2021)
 
