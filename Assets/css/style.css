@@ -236,7 +236,7 @@ svg {
     nav ul {
         flex-direction: row;
         justify-content: space-between;
-        min-width: 1200px;
+        min-width: 75vh;
         height: 15vh;
     }
 
