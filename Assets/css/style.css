@@ -152,7 +152,7 @@ svg {
 
 .avatar {
     position: absolute;
-    height: 250px;
+    height: 180px;
     border-radius: 44% 44% 0 0;
     border: 0.3em solid var(--primary);
     overflow: hidden;
