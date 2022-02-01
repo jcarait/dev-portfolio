@@ -6,9 +6,6 @@
     --secondary-light: #e9e1e1;
 }
 
-
-.jumbotron {
-    height: 750px;
-    background-color: var(--primary);
-    color: var(--secondary-light)
+.navbar li > a {
+    font-size: 20px;
 }
