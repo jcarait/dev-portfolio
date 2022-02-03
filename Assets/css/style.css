@@ -84,7 +84,7 @@
 /*======================================= Skills area =======================================*/
 
 .site-main .skills-area {
-    padding: 1rem 20rem;
+    padding: 5rem 20rem;
     margin-bottom: 4rem;
 }
 
@@ -119,6 +119,11 @@
     letter-spacing: 21px;
     text-align: center;
 }
+
+.site-main .skills-area .skills-text-area h2:first-child {
+    margin-top: 5rem;
+}
+
 
 /* ============ Project area ============*/
 
