@@ -50,9 +50,7 @@
         flex-direction: column-reverse;
     }
 
-    .site-main .project-area .button-group {
-        margin-bottom: 2rem;
-    }
+    
 
     .site-main .project-area .button-group button{
         font: normal 500 12px/40px var(--roboto);
@@ -83,6 +81,10 @@
 
     .site-main .about-area .about-image{
         padding: 2rem 5rem;
+    }
+
+    .site-main .project-area .button-group {
+        margin-bottom: 2rem;
     }
 
 }
