@@ -2,7 +2,7 @@
 
 ## Description
 
-I had a lot of fun building this portfolio which has been recently updated as of 3rd February 2021. I'm currently undergoing training @ University of Sydney for full stack development which includes the following languages and libraries:
+I had a lot of fun building this portfolio which has been recently updated as of 3rd February 2021. I'm currently undergoing training @ University of Sydney for a certificate Full Stack Development which includes the following languages and libraries:
 
 - MERN Stack
     - MongoDB
