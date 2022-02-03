@@ -50,7 +50,7 @@ p.para {
 }
 
 button:focus,
-button:active
+button:active 
 button:hover
 .btn:active,
 .btn.active{
