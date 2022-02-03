@@ -6,7 +6,7 @@
 
 /* NAVIGATION */
 
-.header_area .main-menu .navbar .navbar-brand {
+.header_area .main-menu .navbar .navbar-skill {
     padding: 0.2rem 0.5rem;
 }
 
@@ -73,19 +73,19 @@
     padding: .4rem 0;
 }
 
-/*======================================= Brand area =======================================*/
+/*======================================= Skills area =======================================*/
 
-.site-main .brand-area {
+.site-main .skills-area {
     padding: 1rem 20rem;
     margin-bottom: 4rem;
 }
 
-.site-main .brand-area .first-row .col-lg-4 {
+.site-main .skills-area .first-row .col-lg-4 {
     display: flex;
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+.site-main .skills-area .first-row .col-lg-4 > .single-skill{
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 1.8rem 0rem;
@@ -96,11 +96,17 @@
     transition: transform .4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand > img{
+.site-main .skills-area .first-row .col-lg-4 > .single-skill > img{
     width: 50%;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+.site-main .skills-area .first-row .col-lg-4 > .single-skill:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
+}
+
+.site-main .skills-area .skills-text-area h2 > span {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
 }
