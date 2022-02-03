@@ -1,12 +1,6 @@
 # My Portfolio
 
-## Why have a Portfolio?
-
-My dream is to become a full stack web developer :stars:
-
-I'm currently undergoing training through a coding boot camp collaborated by University of Sydney and Trilogy Education :mortar_board:
-
-This portfolio is a way to showcase everything I've learnt :muscle:
+[Github Deployed Portfolio](https://jcarait.github.io/dev-portfolio/)
 
 ## What Have I learnt so far? (Updated 9/12/2021)
 
