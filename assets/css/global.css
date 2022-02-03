@@ -19,6 +19,11 @@ section:nth-child(even) {
     font: normal bold 50px/ 72px var(--roboto);
 }
 
+.subtitle-text {
+    font: normal bold 38px/ 72px var(--roboto);
+    color: var(--title-color);
+}
+
 .text-uppercase{
     text-transform: uppercase;
 }
