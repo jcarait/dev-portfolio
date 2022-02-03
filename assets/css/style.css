@@ -165,6 +165,10 @@
     color: var(--border-color)
 }
 
+.site-main .project-area .project-title:first-child {
+    margin-top: 2.5rem;
+}
+
 .site-main .project-area .grid .my-project .img a > img {
     max-width: 300px;
     transition: transform .4s ease;
