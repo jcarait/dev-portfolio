@@ -131,3 +131,12 @@
 .site-main .project-area .grid .my-project > .title h4 {
     font: normal 700 25px/12px var(--roboto);
 }
+
+.site-main .project-area .grid .my-project .img > img {
+    max-width: 300px;
+}
+
+.site-main .project-area .grid .my-project .title > span {
+    display: block;
+    font: normal 500 16px/25px var(--roboto);
+}

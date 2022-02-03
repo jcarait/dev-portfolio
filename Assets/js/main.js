@@ -1,3 +1,6 @@
+
+//Project Area -- images can be filtered using buttons
+
 $(document).ready(function(){
 
     let $btns = $(".project-area .button-group button");
@@ -15,3 +18,5 @@ $(document).ready(function(){
         return false;
     })
 })
+
+$(".project-area .button-group #btn1");
