@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 //sticky navigation menu
 
-let nav_offset_top = $(".header-area").height() + 50;
+let nav_offset_top = $(".header_area").height() + 50;
 
 function navbarFixed() {
     if($(".header_area").length){
@@ -35,3 +35,5 @@ function navbarFixed() {
         })
     }
 }
+
+navbarFixed();

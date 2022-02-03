@@ -197,5 +197,5 @@
 }
 
 .footer-area .social a:hover > i {
-    color: var(--border-color);
+    color: var(--primary-color);
 }
