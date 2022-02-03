@@ -73,6 +73,8 @@
     padding: .4rem 0;
 }
 
+/* id tag used here due to nth-child selector overriding button style in global.css */
+
 #get-cv {
     background: var(--gradient-color);
     background-clip: padding-box;
@@ -163,8 +165,14 @@
     color: var(--border-color)
 }
 
-.site-main .project-area .grid .my-project .img > img {
+.site-main .project-area .grid .my-project .img a > img {
     max-width: 300px;
+    transition: transform .4s ease;
+}
+
+.site-main .project-area .grid .my-project .img a:hover > img {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.05);
 }
 
 .site-main .project-area .grid .my-project .title > span {
